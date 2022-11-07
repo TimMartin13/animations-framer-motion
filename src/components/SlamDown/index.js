@@ -22,7 +22,7 @@ const cards = [
 
 const SlamDown = () => {
   const popUp = {
-    hidden: { opacity: 0, scale: 2 },
+    hidden: { opacity: 0, scale: 3 },
     show: {
       opacity: 1,
       scale: 1,
@@ -34,17 +34,17 @@ const SlamDown = () => {
   };
 
   const item = {
-    hidden: { opacity: 0, scale: 2 },
+    hidden: { opacity: 0, scale: 3 },
     show: {
       opacity: 1,
       scale: 1,
-      transition: { type: 'spring', bounce: 0.25, duration: 0.4 },
+      transition: { type: 'spring', bounce: 0.1, duration: 0.4 },
     },
   };
 
   const description = {
     hidden: { opacity: 0 },
-    show: { opacity: 1, transition: { duration: 2, delay: 4 } },
+    show: { opacity: 1, transition: { duration: 2, delay: 3 } },
   };
 
   return (
@@ -53,7 +53,7 @@ const SlamDown = () => {
         variants={popUp}
         initial='hidden'
         whileInView='show'
-        viewport={{ once: true }}
+        // viewport={{ once: true }}
         className='img-container'
       >
         {cards.map((card, index) => {
@@ -73,7 +73,7 @@ const SlamDown = () => {
         variants={description}
         initial='hidden'
         whileInView='show'
-        viewport={{ once: true }}
+        // viewport={{ once: true }}
         className='section__description'
       >
         Songkran is the Thai New Year's national holiday. Songkran is on 13

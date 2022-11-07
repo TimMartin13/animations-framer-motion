@@ -54,7 +54,7 @@ const ScrollFromLeft = () => {
         variants={scrollLeft}
         initial='hidden'
         whileInView='show'
-        viewport={{ once: true }}
+        // viewport={{ once: true }}
         className='img-container'
       >
         {cards.map((card, index) => {
@@ -74,7 +74,7 @@ const ScrollFromLeft = () => {
         variants={description}
         initial='hidden'
         whileInView='show'
-        viewport={{ once: true }}
+        // viewport={{ once: true }}
         className='section__description'
       >
         The Day of the Dead is a holiday traditionally celebrated on November 1

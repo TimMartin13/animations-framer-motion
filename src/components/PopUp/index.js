@@ -58,7 +58,7 @@ const PopUp = () => {
         variants={popUp}
         initial='hidden'
         whileInView='show'
-        viewport={{ once: true }}
+        // viewport={{ once: true }}
         className='img-container'
       >
         {cards.map((card, index) => {
@@ -78,7 +78,7 @@ const PopUp = () => {
         variants={description}
         initial='hidden'
         whileInView='show'
-        viewport={{ once: true }}
+        // viewport={{ once: true }}
         className='section__description'
       >
         Holi, also known as the Festival of Colours, the Festival of Spring, and
