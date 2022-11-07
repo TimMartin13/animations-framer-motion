@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/animations-framer-motion/static/css/main.073c9b0a.css",
+    "main.css": "/animations-framer-motion/static/css/main.2e02ae62.css",
     "main.js": "/animations-framer-motion/static/js/main.2115461a.js",
     "static/js/787.335b54b1.chunk.js": "/animations-framer-motion/static/js/787.335b54b1.chunk.js",
     "static/media/logo.svg": "/animations-framer-motion/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/animations-framer-motion/index.html",
-    "main.073c9b0a.css.map": "/animations-framer-motion/static/css/main.073c9b0a.css.map",
+    "main.2e02ae62.css.map": "/animations-framer-motion/static/css/main.2e02ae62.css.map",
     "main.2115461a.js.map": "/animations-framer-motion/static/js/main.2115461a.js.map",
     "787.335b54b1.chunk.js.map": "/animations-framer-motion/static/js/787.335b54b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
+    "static/css/main.2e02ae62.css",
     "static/js/main.2115461a.js"
   ]
 }
