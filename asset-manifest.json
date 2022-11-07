@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/animations-framer-motion/static/css/main.d7271e0a.css",
-    "main.js": "/animations-framer-motion/static/js/main.7f4b5de5.js",
+    "main.css": "/animations-framer-motion/static/css/main.b654af1b.css",
+    "main.js": "/animations-framer-motion/static/js/main.8320759d.js",
     "static/js/787.335b54b1.chunk.js": "/animations-framer-motion/static/js/787.335b54b1.chunk.js",
     "index.html": "/animations-framer-motion/index.html",
-    "main.d7271e0a.css.map": "/animations-framer-motion/static/css/main.d7271e0a.css.map",
-    "main.7f4b5de5.js.map": "/animations-framer-motion/static/js/main.7f4b5de5.js.map",
+    "main.b654af1b.css.map": "/animations-framer-motion/static/css/main.b654af1b.css.map",
+    "main.8320759d.js.map": "/animations-framer-motion/static/js/main.8320759d.js.map",
     "787.335b54b1.chunk.js.map": "/animations-framer-motion/static/js/787.335b54b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7271e0a.css",
-    "static/js/main.7f4b5de5.js"
+    "static/css/main.b654af1b.css",
+    "static/js/main.8320759d.js"
   ]
 }
