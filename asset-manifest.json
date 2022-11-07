@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/animations-framer-motion/static/css/main.b654af1b.css",
-    "main.js": "/animations-framer-motion/static/js/main.19b13e1c.js",
+    "main.css": "/animations-framer-motion/static/css/main.0925ca62.css",
+    "main.js": "/animations-framer-motion/static/js/main.606e4b39.js",
     "static/js/787.335b54b1.chunk.js": "/animations-framer-motion/static/js/787.335b54b1.chunk.js",
     "index.html": "/animations-framer-motion/index.html",
-    "main.b654af1b.css.map": "/animations-framer-motion/static/css/main.b654af1b.css.map",
-    "main.19b13e1c.js.map": "/animations-framer-motion/static/js/main.19b13e1c.js.map",
+    "main.0925ca62.css.map": "/animations-framer-motion/static/css/main.0925ca62.css.map",
+    "main.606e4b39.js.map": "/animations-framer-motion/static/js/main.606e4b39.js.map",
     "787.335b54b1.chunk.js.map": "/animations-framer-motion/static/js/787.335b54b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b654af1b.css",
-    "static/js/main.19b13e1c.js"
+    "static/css/main.0925ca62.css",
+    "static/js/main.606e4b39.js"
   ]
 }
