@@ -2,6 +2,7 @@ import './App.css';
 import { motion } from 'framer-motion';
 import ScrollFromLeft from './components/ScrollFromLeft';
 import PopUp from './components/PopUp';
+import SlamDown from './components/SlamDown';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
       </section>
       <ScrollFromLeft theme='primary' />
       <PopUp />
+      <SlamDown />
     </div>
   );
 }

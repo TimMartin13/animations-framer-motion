@@ -4,33 +4,28 @@ import { motion } from 'framer-motion';
 
 const cards = [
   {
-    image: '/images/dia_de_los_muertos/air-kiss.jpg',
-    alt: 'Woman with face paint on a orange background',
-    text: 'Dia',
+    image: '/images/songkran/Songkran Water Festival 2017.jpg',
+    alt: 'Water fight!',
+    text: 'Songkran',
   },
   {
-    image: '/images/dia_de_los_muertos/skull.jpg',
-    alt: 'Man with skull mask',
-    text: 'de',
+    image: '/images/songkran/Songkran_Water_Festival.jpg',
+    alt: 'Elephant spraying water onto crowd',
+    text: 'Water',
   },
   {
-    image: '/images/dia_de_los_muertos/frightening-mexican-style-mask.jpg',
-    alt: 'Man in skull make-up with a hat',
-    text: 'Los',
-  },
-  {
-    image: '/images/dia_de_los_muertos/clown-makeup.jpg',
-    alt: 'Woman in devil make-up',
-    text: 'Muertos',
+    image: '/images/songkran/songkran-water.jpg',
+    alt: 'Woman shooting super-soaker',
+    text: 'Festival',
   },
 ];
 
-const ScrollFromLeft = () => {
-  const scrollLeft = {
-    hidden: { opacity: 0, x: -100 },
+const SlamDown = () => {
+  const popUp = {
+    hidden: { opacity: 0, scale: 2 },
     show: {
       opacity: 1,
-      x: 0,
+      scale: 1,
       transition: {
         when: 'beforeChildren',
         staggerChildren: 1,
@@ -39,8 +34,12 @@ const ScrollFromLeft = () => {
   };
 
   const item = {
-    hidden: { opacity: 0, x: -100 },
-    show: { opacity: 1, x: 0, transition: { duration: 2, type: 'tween' } },
+    hidden: { opacity: 0, scale: 2 },
+    show: {
+      opacity: 1,
+      scale: 1,
+      transition: { type: 'spring', bounce: 0.25, duration: 0.4 },
+    },
   };
 
   const description = {
@@ -51,7 +50,7 @@ const ScrollFromLeft = () => {
   return (
     <section className='primary'>
       <motion.div
-        variants={scrollLeft}
+        variants={popUp}
         initial='hidden'
         whileInView='show'
         viewport={{ once: true }}
@@ -63,7 +62,7 @@ const ScrollFromLeft = () => {
               <img
                 src={process.env.PUBLIC_URL + card.image}
                 alt={card.alt}
-                className='img1-4'
+                className='img1-3'
               />
               <h3 className='card__text'>{card.text}</h3>
             </motion.div>
@@ -77,14 +76,13 @@ const ScrollFromLeft = () => {
         viewport={{ once: true }}
         className='section__description'
       >
-        The Day of the Dead is a holiday traditionally celebrated on November 1
-        and 2, though other days, such as October 31 or November 6, may be
-        included depending on the locality. It is widely observed in Mexico,
-        where it largely developed, and is also observed in other places,
-        especially by people of Mexican heritage.
+        Songkran is the Thai New Year's national holiday. Songkran is on 13
+        April every year, but the holiday period extends from 14 to 15 April. In
+        2018 the Thai cabinet extended the festival nationwide to five days,
+        12–16 April, to enable citizens to travel home for the holiday.
       </motion.p>
     </section>
   );
 };
 
-export default ScrollFromLeft;
+export default SlamDown;
