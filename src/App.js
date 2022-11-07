@@ -16,18 +16,18 @@ function App() {
   };
 
   const item2 = {
-    hidden: { opacity: 0 },
-    show: { opacity: 1, transition: { duration: 2, delay: 2 } },
+    hidden: { opacity: 0, x: -100 },
+    show: { opacity: 1, x: 0, transition: { duration: 2, delay: 2 } },
   };
 
   const item3 = {
-    hidden: { opacity: 0 },
-    show: { opacity: 1, transition: { duration: 2, delay: 3 } },
+    hidden: { opacity: 0, x: -100 },
+    show: { opacity: 1, x: 0, transition: { duration: 2, delay: 3 } },
   };
 
   const item4 = {
-    hidden: { opacity: 0 },
-    show: { opacity: 1, transition: { duration: 2, delay: 4 } },
+    hidden: { opacity: 0, x: -100 },
+    show: { opacity: 1, x: 0, transition: { duration: 2, delay: 4 } },
   };
 
   const description = {
