@@ -33,15 +33,6 @@ section {
   color: #282c34;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .img-container {
   display: flex;
   justify-content: center;
@@ -64,22 +55,21 @@ section {
   border-radius: 1rem;
 }
 
-.description {
+.section__description {
   width: 700px;
   padding: 2rem;
-  transform: translateX(0);
 }
 
-.logo {
+.card {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.logo h3 {
+.card__text {
   position: absolute;
-  /* text-shadow: 1px solid black; */
+  text-shadow: 1px 1px 1px black;
   font-size: 2rem;
   color: #fff;
 }
